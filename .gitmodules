@@ -1,0 +1,3 @@
+[submodule "ds-angular-library"]
+	path = ds-angular-library
+	url = git@github.com:digitalspace/ds-angular-library.git
