@@ -6,5 +6,22 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'example-app';
+  steps = [
+    {
+      stepText: '',
+      stepSubText: ''
+    },
+    {
+      stepText: '',
+      stepSubText: ''
+    },
+    {
+      stepText: '',
+      stepSubText: ''
+    },
+    {
+      stepText: '',
+      stepSubText: ''
+    }
+  ];
 }

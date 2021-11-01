@@ -1,4 +1,10 @@
 <h1>
   Step Progress Bar:
 </h1>
-<ds-step-progress-bar></ds-step-progress-bar>
+<ds-step-progress-bar [activeStepIndex]="1"
+  [progressBarColour]="'grey'"
+  [progressBarActiveColour]="'blue'"
+  [subTextColour]="'grey'"
+  [subTextActiveColour]="'blue'"
+  [stepTextColour]="'white'"
+  [steps]="steps"></ds-step-progress-bar>
